@@ -1,66 +1,134 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
+    <title>APEX STRENGTH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>PrimeFit Studio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-  </head>
+    <!-- Bootstrap (optional but useful) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- navigation bar -->
+<body>
 
-    <nav class="navbar navbar-expand-lg py-3">
-        <div class="container-fluid px-lg-5">
-            <a class="navbar-brand brand" href="#">
-                APEX <span class="arrow-icon">&#8604;</span> STRENGTH 
-            </a>
-            <button class="navbar-toggler text-white"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#mainNavbar"
-                    aria-controls="mainNavbar"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<!-- NAVBAR -->
+<header class="nav-wrap">
+    <div class="nav-inner">
+        <div class="logo">APEX<span>↠</span>STRENGTH.</div>
 
-            <div class="collapse navbar-collapse pe-5" >
-                 <ul class="navbar-nav ms-auto justify-content-end gap-5 align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trainers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-sm btn-outline-neon">Member Login</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-
- 
-    <!-- image bar -->
-    <div class="imagediv">
-
+        <nav>
+            <a href="#">Programs</a>
+            <a href="#">Trainers</a>
+            <a href="#">Schedule</a>
+            <a href="#" class="btn-login">Member Login</a>
+        </nav>
     </div>
-      
+</header>
 
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>BREAK YOUR<br><span>LIMITS</span></h1>
+        <p>Elite coaching. World-class equipment. No excuses.</p>
 
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="hero-buttons">
+            <a href="#" class="btn-green">GET 3 DAYS FREE</a>
+            <a href="#" class="btn-outline">VIEW CLASSES</a>
+        </div>
+    </div>
+</section>
 
-  </body>
+<!-- STATS BAR -->
+<section class="stats">
+    <div>500+ MEMBERS</div>
+    <div>24/7 ACCESS</div>
+    <div>15+ EXPERT COACHES</div>
+</section>
+
+<!-- TRAINERS -->
+<section class="trainers">
+    <h3>START YOUR TRANSFORMATION</h3>
+
+    <div class="trainer-cards">
+        <div class="trainer-card">
+            <img src="image/trainer 1.jpg" alt="">
+            <h5>Coach Alex</h5>
+            <span>LEARN MORE</span>
+        </div>
+
+        <div class="trainer-card">
+            <img src="image/trainer3.jpg" alt="">
+            <h5>Trainer Mia</h5>
+            <span>LEARN MORE</span>
+        </div>
+
+        <div class="trainer-card">
+            <img src="image/trainer 2.jpg" alt="">
+            <h5>Coach Eva</h5>
+            <span>LEARN MORE</span>
+        </div>
+    </div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="schedule">
+    <h3>EXPERT TRAINERS</h3>
+
+    <table>
+        <thead>
+        <tr>
+            <th>CLASS</th>
+            <th>TIME</th>
+            <th>DAYS</th>
+            <th>TRAINER</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Powerlifting</td>
+            <td>6:00 AM</td>
+            <td>Tue, Thu</td>
+            <td>Coach Alex</td>
+        </tr>
+        <tr>
+            <td>Cross Flow</td>
+            <td>7:00 AM</td>
+            <td>Tue, Fri</td>
+            <td>Trainer Mia</td>
+        </tr>
+        <tr>
+            <td>Yoga & Mobility</td>
+            <td>7:00 PM</td>
+            <td>Tue, Thu</td>
+            <td>Coach Eva</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-logo">APEX-STRENGTH.</div>
+
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="footer-social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter-x"></i>
+        </div>
+    </div>
+
+    <p class="copyright">© 2025 APEX STRENGTH. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
